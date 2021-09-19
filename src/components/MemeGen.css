@@ -1,0 +1,39 @@
+.meme-box {
+  margin: 20px 14px;
+}
+.meme {
+  width: 75%;
+  margin: auto;
+  position: relative;
+}
+
+.meme > h2 {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  font-size: 2em;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+    2px 2px 5px #000;
+  margin: 15px 0;
+  padding: 0 5px;
+  text-transform: uppercase;
+}
+
+.top {
+  top: 0;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+@media (max-width: 600px) {
+  .meme > h2 {
+    font-size: 1em;
+    margin: 7.5px 0;
+  }
+}
